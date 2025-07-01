@@ -22,7 +22,6 @@ public class ShopCandy {
         j = N - 1;
 
         // Calculate maximum candies
-        int m = N;
         while (j >= i) {
             max += candies[j];
             j--;
