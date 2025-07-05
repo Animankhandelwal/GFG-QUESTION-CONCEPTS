@@ -11,8 +11,11 @@ def binomialCoeff(n,k):
 
 class Solution:
     def catalan(n):
+        
+        # Calculate value of 2nCn
         c=binomialCoeff(2*n,n)
         
+        #return 2nCn/(n+1)
         return c//(n+1)
     
     
