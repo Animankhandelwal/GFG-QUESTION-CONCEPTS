@@ -41,6 +41,5 @@ O(nlogn)
 ### Time Compplexity:
 O(nlogn)
 
-## Activity Selection Problem
-### Concept
-We need to 
+## Minimum Fibonacci
+### the numbers can be expressed as the sum of their fibonacci series and ths is called Zeckendorf's Theorem.
