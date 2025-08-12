@@ -22,3 +22,4 @@ class Solution:
             res.append(arr[last_index])
             last_index=parent[last_index]
         return res
+    

@@ -11,7 +11,6 @@ class Solution:
             boxes.append([b,c,a])
             boxes.append([c,a,b])
             boxes.append([c,b,a])
-            
         boxes.sort(key=lambda x: (x[0], x[1]), reverse=True)
         dp=[0]*len(boxes)
         ans=0
